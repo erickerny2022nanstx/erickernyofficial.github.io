@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fffdfa;
+  color: #343a40;
+}
+
+.main-container {
+  width: 950px;
+  margin: 0 auto;
+  border-bottom: 8px solid #181130;
+}
+
+/* HEADER SECTION */
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: #181130;
+  color: #fffdfa;
+  padding: 68px 0px;
+  margin-bottom: 48px;
+}
+
+.quotation-text {
+  width: 600px;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.eric-image {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 25px;
+}
+
+/* BOTTON CONFIGURATION */
+
+.heading-link {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  background-color: #7950f2;
+  color: #fffdfa;
+  padding: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #5f3dc4;
+}
+
+/* AUTHOR SECTION */
+
+.author-photo-presentation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  justify-items: center;
+  margin-bottom: 48px;
+}
+
+.main-objective {
+  align-self: center;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  /* 44 / 52 / 62 */
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.eric-image {
+  border-radius: 30px;
+}
+
+.contact-link {
+  grid-column: 2/-1;
+}
+
+/* SVG CONFIGURATION */
+a:link,
+a:visited {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* ABOUT SECTION */
+
+.about-author {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 48px;
+  background-color: #e5dbff;
+  padding: 25px;
+}
+
+h2 {
+  font-weight: bold;
+  width: 300px;
+  font-size: 35px;
+  /* 44 / 52 / 62 */
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.about {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.about-me-one {
+  margin-bottom: 10px;
+}
+
+/* ARTICLE */
+
+.article {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 80px;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.article img {
+  width: 300px;
+  height: 250px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.article-title p {
+  font-size: 14px;
+  /* letter-spacing: 1.7; */
+  line-height: 1.7;
+}
+
+.article-section h2 {
+  margin-bottom: 45px;
+}
+
+footer {
+  margin-bottom: 48px;
+  font-size: 14px;
+  /* 12 / 14 / 16  */
+  color: #495057;
+}
+
+/* PERSONAL ADDITION */
+.line {
+  /* display: flex; */
+  flex: 1fr;
+  height: 1px;
+  background-color: #181130;
+}
